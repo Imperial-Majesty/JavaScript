@@ -34,4 +34,24 @@ Women.prototype.name = function(){   // using prototype we can add new method to
 
 console.log(myWomen.name());
 
+// Js General Methods
+
+const person1 = {};  // Target Object 
+
+    person1.firstName = "John";
+    person1.lastName = "DOe";
+    person1.age = 12;
+    person1.eyeColor = "blue";
+
+// source object
+
+const person2 = {firstName: "Amay", lastName: "Doe"};
+
+Object.assign(Man, person2);
+
+let text = Object.entries(Man);
+
+console.log(text);
+
+
 
